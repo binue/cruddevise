@@ -1,0 +1,6 @@
+<form action="/board/comment_update/<%= @one_comment.id %>" method="POST">
+  <div class="form-group">
+    <input type="text" name="content" class="form-control" value="<%= @one_comment.content %>">
+  </div>
+  <button type="submit" class="btn btn-default">댓글수정</button>
+</form>
